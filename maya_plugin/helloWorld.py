@@ -24,7 +24,7 @@ class HelloWorldCmd(om.MPxCommand):
         return HelloWorldCmd()
 
 def initializePlugin(plugin):
-    vendor ="Lizzet Clifton"
+    vendor = "Lizzet Clifton"
     version = "1.0.0"
     
     #storing the plugin function set so we can use it to register the command

@@ -10,7 +10,7 @@ def maya_useNewAPI():
 #required function to initialize, is the entry point for a plugin, called immediately after load
 def initializePlugin(plugin): #plugin is the MObject
     #to register things like commands or nodes, we need to create an instance of an MFN plugin (a plugin function set) or we can pass in a vendor (author) name and the version number of the plugin
-    vendor ="Lizzet Clifton"
+    vendor = "Lizzet Clifton"
     version = "1.0.0"
     #initialize function set here
     om.MFnPlugin(plugin, vendor, version)
